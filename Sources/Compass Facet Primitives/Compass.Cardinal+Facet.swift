@@ -5,8 +5,9 @@ public import Compass_Primitives
 public import Facet_Primitives
 
 extension Compass.Cardinal {
-    /// The 2D box facet this compass bearing names: north = +Y, east = +X, south = −Y,
-    /// west = −X (axis 0 = X = primary, axis 1 = Y = secondary).
+    /// The 2D box facet this compass bearing names.
+    ///
+    /// North = +Y, east = +X, south = −Y, west = −X (axis 0 = X = primary, axis 1 = Y = secondary).
     @inlinable
     public var facet: Facet<2> {
         switch self {

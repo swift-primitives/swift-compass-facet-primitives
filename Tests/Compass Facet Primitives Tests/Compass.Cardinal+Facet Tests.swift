@@ -1,8 +1,7 @@
 // Compass.Cardinal+Facet Tests.swift
 
-import Testing
-
 import Compass_Facet_Primitives
+import Testing
 
 @Suite
 struct `Compass.Cardinal Facet projection` {

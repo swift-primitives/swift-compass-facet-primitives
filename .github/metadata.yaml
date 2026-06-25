@@ -1,0 +1,10 @@
+# .github/metadata.yaml
+description: "Facet projection of compass directions for Swift — bridges Cardinal directions to oriented axis facets."
+topics:
+  - primitives
+  - compass
+  - facet
+  - geometry
+homepage: "https://swift-institute.org"
+readme:
+  family: E
