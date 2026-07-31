@@ -5,6 +5,12 @@ import Testing
 
 @Suite
 struct `Compass.Cardinal Facet projection` {
+    @Suite struct Unit {}
+    @Suite struct `Edge Case` {}
+    @Suite struct Integration {}
+}
+
+extension `Compass.Cardinal Facet projection`.Unit {
     @Test
     func `facet maps each bearing to its box facet`() {
         #expect(Compass.Cardinal.north.facet == Facet<2>(axis: .secondary, direction: .positive))
