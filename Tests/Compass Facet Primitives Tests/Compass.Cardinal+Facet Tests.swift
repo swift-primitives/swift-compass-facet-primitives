@@ -1,5 +1,3 @@
-// Compass.Cardinal+Facet Tests.swift
-
 import Compass_Facet_Primitives
 import Testing
 

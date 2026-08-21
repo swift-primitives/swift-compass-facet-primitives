@@ -28,8 +28,7 @@ let package = Package(
         ),
     ],
     targets: [
-        // Per-carrier bridge ([MOD-014], recipient-then-provider [PKG-NAME-016]):
-        // Compass (recipient) gains its Facet<2> (provider) projection.
+
         .target(
             name: "Compass Facet Primitives",
             dependencies: [
